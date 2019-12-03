@@ -1,0 +1,70 @@
+version: '3'
+services:
+  authService:
+    image: tshyamvamsi/authservicev1:v1
+    restart: always
+    network_mode: host
+    depends_on:
+      - mysql
+      - eurekaServer
+    ports:
+      - 8084:8084
+
+  userTrackService:
+    image: tshyamvamsi/usertrackservicev1:v1
+    restart: always
+    network_mode: host
+    depends_on:
+      - mongo
+      - eurekaServer
+    ports:
+      - 8085:8085
+
+  eurekaServer:
+    image: tshyamvamsi/eurekaservice:v1
+    restart: always
+    network_mode: host
+    ports:
+      - 9003:9003
+
+  zuulService:
+    image: tshyamvamsi/zuulservice:v1
+    restart: always
+    network_mode: host
+    ports:
+      - 8086:8086
+
+  orchestrationService:
+    image: tshyamvamsi/orchestrationservice:v1
+    restart: always
+    network_mode: host
+    depends_on:
+      - eurekaServer
+    ports:
+      - 8888:8888
+
+  mysql:
+    image: mysql:5.5
+    ports:
+      - 3306:3306
+    container_name: mysql_container
+    network_mode: host
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: UserDb
+      MYSQL_USER: approot
+      MYSQL_PASSWORD: root123
+
+  angular:
+    image: tshyamvamsi/angularregister:v1
+    network_mode: host
+    container_name: angular-docker
+    ports:
+      - 8080:8080
+
+  mongo:
+    image: mongo:3.4-jessie
+    ports:
+      - 27017:27017
+    container_name: mongo
+    network_mode: host

@@ -1,0 +1,11 @@
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/controller/MuzixController.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/repository/MuzixRepository.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/domain/Image.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/exception/TrackAlreadyExistsException.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/service/MuzixServiceImpl.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/exception/TrackNotFoundException.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/domain/Artist.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/service/MuzixService.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/config/SwaggerConfig.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/MuzixServiceApplication.java
+/home/shyam/Desktop/stackroute/Sprint 3/git folder/muzixservice/MuzixService/src/main/java/com/stackroute/muzixservice/domain/Track.java

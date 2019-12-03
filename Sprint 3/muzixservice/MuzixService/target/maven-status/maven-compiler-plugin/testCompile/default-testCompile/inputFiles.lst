@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+/home/shyam/Desktop/stackroute/Sprint 3/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/repository/MuzixRepositoryTest.java
+/home/shyam/Desktop/stackroute/Sprint 3/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/MuzixServiceApplicationTests.java
+/home/shyam/Desktop/stackroute/Sprint 3/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/controller/MuzixControllerTest.java
+/home/shyam/Desktop/stackroute/Sprint 3/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/service/MuzixServiceTest.java
+=======
+/home/shyam/Desktop/stackroute/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/repository/MuzixRepositoryTest.java
+/home/shyam/Desktop/stackroute/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/controller/MuzixControllerTest.java
+/home/shyam/Desktop/stackroute/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/MuzixServiceApplicationTests.java
+/home/shyam/Desktop/stackroute/muzixservice/MuzixService/src/test/java/com/stackroute/muzixservice/service/MuzixServiceTest.java
+>>>>>>> ef8724c6598c9cf72ece2486f30c933c92bd3fbd

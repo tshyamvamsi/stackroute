@@ -1,0 +1,27 @@
+version: '3'
+services:
+  Spring:
+    image: tshyamvamsi/muzixservicebackend:v2
+    restart: always
+    network_mode: host
+    container_name: spring-image
+    depends_on:
+      - mongo
+    ports:
+      - 8083:8083
+
+  angular:
+    image: tshyamvamsi/muzixservicefrontend:v2
+    network_mode: host
+    container_name: angular-docker
+    ports:
+      - 8080:8080
+
+  mongo:
+    image: mongo:3.4-jessie
+    ports:
+      - 27017:27017
+    container_name: mongo
+    network_mode: host
+
+

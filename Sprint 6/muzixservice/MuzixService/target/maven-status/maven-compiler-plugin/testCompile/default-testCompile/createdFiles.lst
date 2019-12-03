@@ -1,0 +1,4 @@
+com/stackroute/muzixservice/MuzixServiceApplicationTests.class
+com/stackroute/muzixservice/repository/MuzixRepositoryTest.class
+com/stackroute/muzixservice/controller/MuzixControllerTest.class
+com/stackroute/muzixservice/service/MuzixServiceTest.class
